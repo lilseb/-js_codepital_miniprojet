@@ -26,7 +26,7 @@ Son chat miaule toutes les deux secondes dans la console(bonus). La consultation
 ### Grille des diagnostiques
 |maladie|traitement|
 |---|---|
-|mal indenté|`ctrl+maj+f`|
+|mal indenté|`alt+maj+f`|
 |unsave|`saveOnFocusChange`|
 |404|`CheckLinkRelation`|
 |azmatique|`Ventoline`|

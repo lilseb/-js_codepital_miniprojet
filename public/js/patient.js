@@ -1,10 +1,10 @@
-export class Patient {
-    
-    nom: "";
-    maladie: "";
-    argent: "";
-    poche: "";
-    etatSante: "";
+export default class Patient {
+
+    nom= "";
+    maladie= "";
+    argent= 0;
+    poche= "";
+    etatSante= "" ;
 
     constructor(nom, maladie, argent, poche, etatSante){
         this.nom = nom;
@@ -25,8 +25,9 @@ export class Patient {
      takeCare() {
 
      }
-     
+
      paye() {
 
      }
 }
+

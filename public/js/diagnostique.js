@@ -8,4 +8,12 @@ export default class Diagnostique {
         this.traitement = traitement;
     }
 
+    getMaladie(){
+        return this.maladie;
+    }
+
+    getTraitement(){
+        return this.traitement;
+    }
+
 }

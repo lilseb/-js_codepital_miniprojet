@@ -45,11 +45,6 @@ let tarifs = [tarif1, tarif2, tarif3, tarif4, tarif5];
 
 //////////////////////// Logique de l'application ////////////////////////
 
-// le chat miaule toute les deux seconces et l'affiche
-setInterval(function () {
-    console.log(`Le chat miaule: MIAAAUW`)
-    new Audio('./cat.mp3').play();
-}, 2000);
 
 // boucle pour faire passer tous les patients chez le docteur
 patients.forEach(patient => {
@@ -135,3 +130,9 @@ console.log(`Nombre de personne(s) dans la salle d'attente: ${lieu1.contenu.leng
 console.log(`Nombre de personne(s) dans le cabinet: ${docteur1.cabinet.length}`);
 console.log(`Nombre de personne(s) dans la pharmarcie: ${lieu2.contenu.length}`);
 console.log(`Nombre de personne(s) dans le cimetière: ${lieu3.contenu.length}`);
+
+// le chat miaule toute les deux seconces et l'affiche
+setInterval(function () {
+    console.log(`Le chat miaule: MIAAAUW`)
+    new Audio('../cat.mp3').play();
+}, 2000);

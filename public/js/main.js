@@ -134,5 +134,5 @@ console.log(`Nombre de personne(s) dans le cimetière: ${lieu3.contenu.length}`)
 // le chat miaule toute les deux seconces et l'affiche
 setInterval(function () {
     console.log(`Le chat miaule: MIAAAUW`)
-    new Audio('../cat.mp3').play();
+    new Audio('./cat.mp3').play();
 }, 2000);
